@@ -1,0 +1,40 @@
+/* Copyright 2020 Kieran Sukachevin - All rights reserved. */ 
+
+/* Styling for the overall page */
+
+body {
+    background-color: rgb(36, 36, 36);
+}
+
+/* Styling for thumbnails */
+
+.thumbnailContainer {
+    background-color: black;
+    border-color: black;
+    border-style: solid;
+    border-width: 4px 4px 0px 4px;
+    display: inline-block;
+    position: absolute;
+}
+
+/* Styling for size */
+
+.thumbnail {
+    width: 20em;
+}
+
+.title {
+    padding-right: 40px;
+    padding-top: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.title-text {
+    color: #fff;
+    font-family: "Arial", Roboto, sans-serif;
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-align: right;
+    text-shadow: 2px 2px 4px black;
+}
